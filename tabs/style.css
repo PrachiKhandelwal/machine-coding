@@ -1,0 +1,20 @@
+.content-card{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+.tab-header{
+    padding: 8px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(199, 197, 197);
+    cursor: pointer;
+}
+.tab-header:hover{
+    background-color: rgba(211, 211, 211, 0.801);
+}
+
+.active-tab{
+    background-color: rgba(175, 175, 175, 0.893);
+}
