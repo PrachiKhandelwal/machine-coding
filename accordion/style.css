@@ -1,0 +1,24 @@
+.summary, .detail{
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+.summary{
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.521);
+}
+.summary:hover{
+    background-color: lightgray;
+    color: black;
+}
+.detail{
+    display: none;
+}
+.isExpanded-summary{
+    background-color: rgba(128, 128, 128, 0.769);
+    color: white;
+}
+
+.isExpanded-detail{
+    display: block;
+}
