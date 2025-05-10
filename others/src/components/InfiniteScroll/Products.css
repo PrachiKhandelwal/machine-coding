@@ -1,0 +1,26 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.products__single {
+    background-color: rgba(211, 211, 211, 0.315);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.products__single > p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
