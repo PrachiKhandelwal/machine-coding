@@ -1,0 +1,29 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.product {
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product:hover{
+    transform: scale(1.05);
+}
+
+.product img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+.paginator-btn {
+    background-color: white;
+    color: cornflowerblue;
+    border-radius: 0;
+    border:1px solid cornflowerblue
+}

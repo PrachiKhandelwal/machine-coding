@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    padding: var(--container-padding);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.header {
+    height: 50px;
+    background-color: cornflowerblue;
+    padding: var(--container-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header:first-child {
+    color: white;
+}
+
+.header input {
+    padding: 0 0.25rem;
+    outline: none;
+    border: none;
+}
+form {
+    position: relative;
+    background-color: white;
+}
+
+form:nth-child(2) {
+    position: absolute;
+    right: 4px;
+    top: 25px;
+    transform: translateY(-50%);
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    padding: var(--container-padding);
+}
