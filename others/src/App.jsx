@@ -2,6 +2,7 @@ import ConfigDrivenForm from "./components/ConfigDrivenForm/ConfigDrivenForm";
 import Form from "./components/ConfigDrivenForm/Form";
 import Progress from "./components/ProgressBar";
 import ProgressBar from "./components/ProgressBar/ProgressBar";
+import Rating from "./components/StarRating/Rating";
 
 function App() {
     
@@ -11,7 +12,8 @@ function App() {
             {/* <Products/> */}
             {/* <Progress/> */}
             {/* <Form/> */}
-            <ConfigDrivenForm/>
+            {/* <ConfigDrivenForm/> */}
+            <Rating/>
         </>
     );
 }
